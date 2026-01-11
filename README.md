@@ -1,104 +1,119 @@
-\documentclass[a4paper,10pt]{article}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CV - Sabah Benslimane</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[french]{babel}
-\usepackage{geometry}
-\usepackage{xcolor}
-\usepackage{enumitem}
-\usepackage{hyperref}
-\usepackage{multicol}
-\usepackage{titlesec}
-\usepackage{fontawesome}
+        .cv-container {
+            width: 800px;
+            margin: 20px auto;
+            background: #ffffff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
 
-\geometry{margin=1.5cm}
+        h1 {
+            text-align: center;
+            margin-bottom: 5px;
+        }
 
-\definecolor{mainblue}{RGB}{0,102,153}
+        h2 {
+            color: #8b6f47;
+            border-bottom: 2px solid #8b6f47;
+            padding-bottom: 5px;
+        }
 
-\titleformat{\section}
-{\large\bfseries\color{mainblue}}
-{}{0em}{}[\titlerule]
+        .info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-\setlength{\parindent}{0pt}
+        .section {
+            margin-bottom: 20px;
+        }
 
-\begin{document}
+        ul {
+            padding-left: 20px;
+        }
 
-% ===== HEADER =====
-\begin{center}
-    {\LARGE \textbf{SABAH BENSLIMANE}}\\
-    \vspace{3pt}
-    Étudiante en Marketing Digital Commercial\\
-    \vspace{6pt}
-    \faPhone\ 0645463008 \quad
-    \faEnvelope\ \href{mailto:sabahbenslimane18@gmail.com}{sabahbenslimane18@gmail.com} \quad
-    \faMapMarker\ Rabat – Avenue Al Majd
-\end{center}
+        .skills span {
+            display: inline-block;
+            background: #e6e6e6;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
 
-\vspace{10pt}
+<div class="cv-container">
 
-\begin{multicols}{2}
+    <h1>SABAH BENSLIMANE</h1>
+    <div class="info">
+        <p>Étudiante en Marketing Digital Commercial</p>
+        <p>📞 0645463008 | 📧 sabahbenslimane18@gmail.com</p>
+        <p>📍 Rabat, Avenue Al Majd</p>
+    </div>
 
-% ===== EXPERIENCE =====
-\section*{Expérience}
+    <div class="section">
+        <h2>Formation</h2>
+        <p><strong>Diplôme Universitaire de Technologie</strong></p>
+        <p>Marketing Digital Commercial</p>
+        <p>École Supérieure de Technologie de Salé (2024 – 2026)</p>
+    </div>
 
-\textbf{Stage d’initiation (1 mois)}\\
-\textit{ESPACE CONSEIL PARTNERS}\\
-Département Comptabilité
-\begin{itemize}[leftmargin=*]
-    \item Classement et archivage des documents
-    \item Saisie des factures d’achats et de ventes
-    \item Enregistrement des relevés bancaires
-    \item Lettrage et gestion des anomalies comptables
-\end{itemize}
+    <div class="section">
+        <h2>Expérience Professionnelle</h2>
+        <p><strong>Stage d’initiation – 1 mois</strong></p>
+        <p>ESPACE CONSEIL PARTNERS – Département de Comptabilité</p>
+        <ul>
+            <li>Réception et classement des documents</li>
+            <li>Saisie des factures d’achats et de ventes</li>
+            <li>Enregistrement du relevé bancaire</li>
+            <li>Traitement du lettrage et gestion des anomalies comptables</li>
+        </ul>
+    </div>
 
-% ===== FORMATION =====
-\section*{Formation}
+    <div class="section">
+        <h2>Compétences</h2>
+        <div class="skills">
+            <span>Marketing digital</span>
+            <span>Gestion des réseaux sociaux</span>
+            <span>Esprit d’analyse</span>
+            <span>Créativité</span>
+            <span>Esprit d’équipe</span>
+            <span>Organisation</span>
+        </div>
+    </div>
 
-\textbf{DUT – Marketing Digital Commercial}\\
-École Supérieure de Technologie de Salé\\
-\textit{2024 – 2026}
+    <div class="section">
+        <h2>Langues</h2>
+        <ul>
+            <li>Français</li>
+            <li>Arabe</li>
+        </ul>
+    </div>
 
-\columnbreak
+    <div class="section">
+        <h2>Loisirs</h2>
+        <ul>
+            <li>Volley-ball</li>
+            <li>Réseaux sociaux</li>
+            <li>Voyage</li>
+            <li>Photographie</li>
+        </ul>
+    </div>
 
-% ===== SKILLS =====
-\section*{Compétences}
+</div>
 
-\begin{itemize}[leftmargin=*]
-    \item Marketing digital
-    \item Gestion des réseaux sociaux
-    \item Création de contenu
-    \item Analyse marketing
-    \item Communication digitale
-\end{itemize}
+</body>
+</html>
 
-% ===== SOFT SKILLS =====
-\section*{Qualités}
-
-\begin{itemize}[leftmargin=*]
-    \item Esprit d’équipe
-    \item Créativité
-    \item Sens de l’organisation
-    \item Esprit d’analyse
-\end{itemize}
-
-% ===== LANGUES =====
-\section*{Langues}
-
-\begin{itemize}[leftmargin=*]
-    \item Arabe
-    \item Français
-\end{itemize}
-
-% ===== LOISIRS =====
-\section*{Loisirs}
-
-\begin{itemize}[leftmargin=*]
-    \item Volley-ball
-    \item Réseaux sociaux
-    \item Photographie
-    \item Voyage
-\end{itemize}
-
-\end{multicols}
-
-\end{document}
